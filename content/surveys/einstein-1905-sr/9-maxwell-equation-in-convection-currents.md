@@ -9,7 +9,7 @@ tags:
 keywords:
 inspired:
 motivation:
-draft: true
+draft: false
 ---
 
 #### II. 전기동역학 (Electrodynamical Part)

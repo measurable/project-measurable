@@ -9,7 +9,7 @@ tags:
 keywords:
 inspired:
 motivation:
-draft: true
+draft: false
 ---
 
 #### I. 운동학 (Kinematic Part)

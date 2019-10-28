@@ -9,7 +9,7 @@ tags:
 keywords:
 inspired:
 motivation:
-draft: true
+draft: false
 ---
 
 잘 알려져 있듯이, 맥스웰의 전기동역학을 움직이는 물체에 적용하면 현상에 내재하지 않는 비대칭성을 만나게 된다.

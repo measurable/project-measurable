@@ -9,7 +9,7 @@ tags:
 keywords:
 inspired:
 motivation:
-draft: true
+draft: false
 ---
 
 
