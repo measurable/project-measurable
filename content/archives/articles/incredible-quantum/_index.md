@@ -11,7 +11,7 @@ inspired: https://horizon.kias.re.kr/archives/allarticles/naturalsciences/믿기
 motivation: "
 고등과학원 웹진 horizon 연재중.
 "
-draft: true
+draft: flase
 ---
 
 <span class="pretag">미간행</span>:

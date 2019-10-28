@@ -10,7 +10,7 @@ inspired: https://www.nasa.gov/feature/goddard/2019/nasa-visualization-shows-a-b
 motivation: "
     section page
 "
-draft: true
+draft: flase
 ---
 
 ## 블랙홀 이미징의 역사

@@ -8,7 +8,7 @@ tags:
 keywords:
 inspired: "T. N. Narasimhan,  'Fourier's Heat Conduction Equation: History, Influences and Connections'"
 motivation: '"... first developed and solved by Joseph Fourier in 1822 to describe heat flow, however, it is of fundamental importance in diverse scientific fields. In probability theory, connected with the study of random walks and Brownian motion... In financial mathematics, used to solve the Black–Scholes partial differential equation. In Quantum Mechanics, for finding spread of wave function in potential free region. A variant was also instrumental in the solution of the longstanding Poincaré conjecture of topology."(위키, "Heat Equation", 푸리에의 열방정식은 방정식 자체에 대한 해설이 필요할 정도로 중요하고, 매우 제너럴하고 강력한 생각법으로서 미분방정식이 가지는 의미를 보여주는 표준적인 사례니까 글모음으로 만들자.)'
-draft: true
+draft: flase
 ---
 
 푸리에의 열방정식을 현대의 벡터 해석 표기법을 사용해서 나타내면 다음과 같다:
