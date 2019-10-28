@@ -8,5 +8,5 @@ tags:
 keywords:
 inspired:
 motivation: "계기와 이벤트. 아이디어와 사건들."
-draft: true
+draft: false
 ---

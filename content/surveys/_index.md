@@ -10,6 +10,6 @@ inspired:
 motivation: "
     section page
 "
-draft: true
+draft: false
 ---
 
