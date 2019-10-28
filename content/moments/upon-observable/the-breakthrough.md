@@ -9,7 +9,7 @@ tags:
 keywords:
 inspired:
 motivation:
-draft: true
+draft: false
 ---
 
 이 위대한 논문은 다음과 같이 시작한다.

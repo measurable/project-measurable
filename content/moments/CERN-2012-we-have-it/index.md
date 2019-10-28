@@ -8,7 +8,7 @@ tags:
 keywords:
 inspired:
 motivation:
-draft: true
+draft: false
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0CugLD9HF94" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" class="center" allowfullscreen></iframe>

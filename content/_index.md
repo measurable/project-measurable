@@ -7,14 +7,14 @@ and ...<br/>
 atlases are manifolds.</em></p>
 
 - general categories:
-    - 존재의 표현: 존재는 표현을 갖는다.
-    - 표현의 방법: 표현은 기술된다.
-    - 규범의 발견: 일반적인 규범이라고 할 만한 것들이 있다.
+    - 표현: 솔직히, 표현되지 않는 것도 존재한다고 말할 수 있는지 모르겠다.
+    - 방법: 기술하는 방법
+    - 규범: 그러다 보면 일반적인 규범이라고 할 만한 것들이 발견되곤 한다.
 - individual themes
-    - 기원의 탐구
-    - moments
-    - quotes
+    - 기원: 아이디어의 기원은 대체로 단순한 듯...
+    - moments: 카르티에 브레송이 말하는 그런 순간이 있다.
+    - quotes: quotes, quotes, quotes, ...
 
 ### history
 
-- v .9 done with posting my logo
+- 도대체 언제쯤이면 퇴고된 글을 만날 수 있을까...

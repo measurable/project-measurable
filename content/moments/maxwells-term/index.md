@@ -11,7 +11,7 @@ inspired: "S. Hassani, Mathematical Methods for Students of physics and Related 
 motivation: '표현의 발견이 사실의 발견으로 이어지는 전형적인 사례. 그래서 이건 방법의 발견에 해당하는 이야기이기도 하다. 하사니가 정당히게 지적한 것처럼 코페르니쿠스 자신에게서 시작된 이런 패턴은 플랑크의 양자, 디랙의 마이너스 해, 찬드라세카르의 블랙홀 등등으로 이어지게 된다. 모두가 물리적으로 가능하지 않은 기상천외한 결과로 인식되는...
 "Mathematics and the force of logic and human reasoning unravel one of the greatest secrets of Nature!" (S. Hassani)
 '
-draft: true
+draft: false
 ---
 
 Maxwell's most important achievement was his extension and mathematical formulation of Michael Faraday's theories of electricity and magnetic lines of force. His paper On Faraday's lines of force was read to the Cambridge Philosophical Society in two parts, 1855 and 1856. Maxwell showed that a few relatively simple mathematical equations could express the behavior of electric and magnetic fields and their interrelation.

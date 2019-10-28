@@ -11,4 +11,4 @@ motivation: "
 draft: true
 ---
 
-사이트 구축과 관련된 히스토리, 튜토리얼 및 가이드 모음.
+**I'm sorry, this section is not supposed to go public.**

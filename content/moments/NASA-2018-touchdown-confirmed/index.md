@@ -8,7 +8,7 @@ tags:
 keywords:
 inspired:
 motivation:
-draft: true
+draft: false
 ---
 
 Pasadena, 2018: 화성 탐사선 인사이트 터치다운

@@ -8,7 +8,7 @@ tags:
 keywords:
 inspired:
 motivation: ""
-draft: true
+draft: false
 ---
 
 If there is any moment that marks the birth of quantum mechanics, it would be a vacation taken by the young Werner Heisenberg in 1925. Suffering from hay fever, Heisenberg fled the flowering fields near Göttingen for the lonely North Sea island of Helgoland. Heisenberg and his colleagues had for several years been struggling with a problem raised in 1913 by Niels Bohr's theory of the atom: why do electrons in atoms occupy only certain allowed orbits with certain definite energies? On Helgoland Heisenberg made a fresh start. He decided that, because no one could ever directly observe the orbit of an electron in an atom, he would deal only with quantities that could be measured: specifically, with the energies of the quantum states in which all the atom's electrons occupy allowed orbits, and with the rates at which an atom might spontaneously make a transition from any one of these quantum states to any other state by emitting a particle of light, a photon. Heisenberg made what he called a "table" from these rates, and he introduced mathematical operations on this table that would yield new tables, one type of table for each physical quantity like the position or the velocity or the square of the velocity of an electron.[^1] Knowing how the energy of a particle in a simple system depends on its velocity and position, Heisenberg was able in this way to calculate a table of the energies of the system in its various quantum states, in a sort of parody of the way that the energy of a planet is calculated in Newton's physics from a knowledge of its position and velocity.

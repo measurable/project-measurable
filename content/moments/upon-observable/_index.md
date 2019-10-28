@@ -9,7 +9,7 @@ tags:
 keywords:
 inspired:
 motivation: "... exclusively upon relationships between quantities which in principle are observable."
-draft: true
+draft: false
 ---
 
 Heisenberg의 1925년 breakthrough

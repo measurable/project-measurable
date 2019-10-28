@@ -8,7 +8,7 @@ tags:
 keywords:
 inspired:
 motivation:
-draft: true
+draft: false
 ---
 
 A. Penzias와 R. Wilson의 관측에 대한 뉴욕타임스의 1965년 5월 21일자 보도는 다음과 같이 시작한다.
