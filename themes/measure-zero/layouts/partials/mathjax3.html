@@ -1,0 +1,14 @@
+<!--- config mathjax --->
+<!---
+  physics package is not autoloaded, due to the fact that it redefines many standard macros, so you must request it explicitly if you want to use it.
+--->
+
+<!--- config. mathjax components --->
+{{ partial "mathjax3-config.html" . }}
+<!--- browser compatibility for IE 11 --->
+<!--- *** BEFORE mathjax LOADER! ***  --->
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<!--- load mathjax3 latest version with output/svg--->
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>

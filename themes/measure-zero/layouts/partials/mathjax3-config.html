@@ -1,0 +1,42 @@
+<!--- config mathjax --->
+<!---
+  physics package is not autoloaded, due to the fact that it redefines many standard macros, so you must request it explicitly if you want to use it.
+--->
+
+<!--- config. mathjax components --->
+<script>
+MathJax = {
+  tex: {
+    autoload: { braket: [] },
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    tags: 'ams',
+    macros: {
+      //vector calculus
+      vb: ["{\\bf{#1}}", 1],
+      vi: ["{\\boldsymbol{#1}}", 1],
+      uv: ["{\\hat{\\bf{#1}}}", 1],
+      ui: ["{\\hat{\\boldsymbol{#1}}}", 1],
+      abs: ["{\\left\\vert{#1}\\right\\vert}", 1],
+      norm: ["{\\left\\Vert{#1}\\right\\Vert}", 1],
+      //grad: "{\\mathop{\\boldsymbol\\nabla}}",
+      //divg: ["{\\boldsymbol{\\nabla}\\cdot #1}", 1],
+      //curl: ["{\\boldsymbol{\\nabla}\\times #1}", 1],
+      grad: "{\\mathop{\\nabla}}",
+      divergence: ["{\\nabla\\cdot #1}", 1],
+      curl: ["{\\nabla\\times #1}", 1],
+      laplacian: "{\\nabla^2}",
+      dalambert: "{\\Box^2}",
+      diag: ["{\\mathop{\\mathrm{diag}\\left(#1\\right)}}", 1],
+      // braket
+      bra: ["{\\left\\langle{#1}\\right\\vert}", 1],
+      ket: ["{\\left\\vert{#1}\\right\\rangle}", 1],
+      braket: ["{\\left\\langle{#1}\\middle\\vert{#2}\\right\\rangle}", 2],
+      matrel: ["{\\left\\langle{#1}\\middle\\vert{#2}\\middle\\vert{#3}\\right\\rangle}", 3],
+      expect: ["{\\left\\langle{#1}\\right\\rangle}", 1]
+    }
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>

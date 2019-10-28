@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+  {{- partial "head.html" . -}}
+  <body>
+    <div class="sidebar">
+      <div id="measurelogo">
+        <a href='{{"/" | urlize }}'><img width="92" src="/images/measurelogo-003300-172.png" onmouseover="this.src='/images/measurelogo-239023-172.png'" onmouseout="this.src='/images/measurelogo-003300-172.png'"></a></div>
+      <div id="measurable">
+        <a href='{{"/" | urlize }}'>measurable</a>
+      </div>
+      <div class="navbar">
+        <div id="mainmenu">
+          {{ partial "strip-menu.html" . }}
+        </div>
+        <div id="taxonomies">
+          {{ partial "strip-taxonomies.html" . }}
+        </div>
+      </div>
+    </div>
+    <div class="main shadowbox" id="article">
+      {{ partial "header.html" . }}
+      <div id="content">
+      {{- block "main" . -}}{{- end -}}
+      </div>
+    </div>
+    <div class="main" id="credit">
+      {{- partial "footer.html" . -}}
+    </div>
+  </body>
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<title>kmh arts</title>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+  <style>
+    html,
+    body,
+    .container,
+    .doublecontainer {
+      width: 100%;
+/* undo comment-out when inline images included !
+      height: 100%;
+*/
+    }
+    body {
+      background: #1f1f1f;
+      font-family: 'Noto Sans KR', sans-serif;
+    }
+    .container,
+    .doublecontainer {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .imagebundle {
+      padding-right: 4px;
+      position: relative;
+    }
+    .articleheader {
+      width: 32.6%;
+      height: auto;
+    }
+    .inline {
+      width: auto;
+      padding-bottom: 4px;
+    }
+    .single {
+      height: 20%;
+    }
+    .double {
+      height: 40%;
+    }
+    img.headerimage {
+      width: 100%;
+      height: auto;
+    }
+    img.singleheight,
+    img.doubleheight {
+      width: auto;
+      height: 100%;
+    }
+    .imagebundle p.alt {
+      position: absolute;
+      opacity: 0; /* hide initially */
+      left: 0;
+      right: 4px;
+      top: 0;
+      margin: 0;
+      font-size: 1.1em;
+      text-align: center;
+      background-color: rgba(255,0,0,.42);
+      color: #fff;
+      transition: all 300ms ease;
+      transition-delay: 300ms;
+    }
+    img:hover {
+      opacity: .82;
+    }
+    .imagebundle:hover > p.alt {
+      opacity: 1;
+      transition-delay: 0s;
+    }
+    @media screen and (max-width: 1025px) {
+      .articleheader {
+        width: 48%;
+      }
+      .single {
+        height: calc(.09% + 19vw);
+      }
+      .double {
+        height: calc(20% + 19vw);
+      }
+    }
+    @media screen and (max-width: 567px) {
+      .articleheader {
+        width: 100%;
+      }
+      .single {
+        height: 46vw;
+      }
+      .double {
+        height: 60vw;
+      }
+    }
+    @media screen and (min-width: 1280px) {
+      .single {
+        height: 25%;
+      }
+      .double {
+        height: 50%;
+      }
+    }
+  </style>
+  </head>
+<!--- body --->
+<body>
+<!---
+<header>
+</header>
+--->
+<div class="container">
+<!--- title images --->
+<div class="imagebundle articleheader"><a href="https://horizon.kias.re.kr/archives/allarticles/mathematics/고대-그리스-수학을-읽는-세-가지-길-놀라움-보임-그/" target="_blank"><img width="800" alt="이은수, 고대 그리스 수학을 읽는 세 가지 길" src="https://horizon.kias.re.kr/wp-content/uploads/2019/05/17-01-title.jpg" class="headerimage"></a><p class="alt">이은수, 고대 그리스 수학을 읽는 세 가지 길</p></div>
+<div class="imagebundle articleheader"><a href="https://horizon.kias.re.kr/archives/allarticles/naturalsciences/기후변화와-티핑-포인트/" target="_blank"><img width="800" alt="서경환, 기후변화와 티핑 포인트" src="https://horizon.kias.re.kr/wp-content/uploads/2019/01/13-01-title.jpg" class="headerimage"></a><p class="alt">서경환, 기후변화와 티핑 포인트</p></div>
+<div class="imagebundle articleheader"><a href="https://horizon.kias.re.kr/archives/allarticles/naturalsciences/당신-몸-안의-작은-우주-장내-미생물-생태계와-의과학/" target="_blank"><img width="800" alt="김판준, 당신 몸 안의 작은 우주" src="https://horizon.kias.re.kr/wp-content/uploads/2019/03/15-01-title.jpg" class="headerimage"></a><p class="alt">김판준, 당신 몸 안의 작은 우주</p></div>
+<div class="imagebundle articleheader"><a href="https://horizon.kias.re.kr/archives/allarticles/naturalsciences/믿기-힘든-양자-incredible-quantum-5-양자-삼위일체-1부/" target="_blank"><img width="800" alt="박권, 양자 삼위일체 1부" src="https://horizon.kias.re.kr/wp-content/uploads/2018/10/10-01-title.jpg" class="headerimage"></a><p class="alt">박권, 양자 삼위일체 1부</p></div>
+<div class="imagebundle articleheader"><a href="https://horizon.kias.re.kr/archives/allarticles/naturalsciences/아보가드로-수-물질세계의-불연속성에-대하여/" target="_blank"><img width="800" alt="현창봉, 물질세계의 불연속성에 대하여" src="https://horizon.kias.re.kr/wp-content/uploads/2017/10/07-01-title.jpg" class="headerimage"></a><p class="alt">현창봉, 물질세계의 불연속성에 대하여</p></div>
+<div class="imagebundle articleheader"><a href="https://horizon.kias.re.kr/archives/allarticles/naturalsciences/암흑물질과-암흑에너지/" target="_blank"><img width="800" alt="전응진, 암흑물질과 암흑에너지" src="https://horizon.kias.re.kr/wp-content/uploads/2018/09/09-01-title.jpg" class="headerimage"></a><p class="alt">전응진, 암흑물질과 암흑에너지</p></div>
+<div class="imagebundle articleheader"><a href="https://horizon.kias.re.kr/archives/allarticles/naturalsciences/액체-이론-및-전산모사-연구-경계성의-학문/" target="_blank"><img width="800" alt="정연준, 액체 이론 및 전산모사 연구" src="https://horizon.kias.re.kr/wp-content/uploads/2019/07/19-01-title.jpg" class="headerimage"></a><p class="alt">정연준, 액체 이론 및 전산모사 연구</p></div>
+<div class="imagebundle articleheader"><a href="https://horizon.kias.re.kr/archives/allarticles/naturalsciences/양자-물질의-역사-1-최초의-물질-이론/" target="_blank"><img width="800" alt="한정훈, 최초의 물질 이론" src="https://horizon.kias.re.kr/wp-content/uploads/2019/02/14-01-title.jpg" class="headerimage"></a><p class="alt">한정훈, 최초의 물질 이론</p></div>
+<div class="imagebundle articleheader"><a href="https://horizon.kias.re.kr/archives/allarticles/naturalsciences/양자-물질의-역사-5-그래-핀다/" target="_blank"><img width="800" alt="한정훈, 그래, 핀다!" src="https://horizon.kias.re.kr/wp-content/uploads/2019/09/21-01-title.jpg" class="headerimage"></a><p class="alt">한정훈, 그래, 핀다!</p></div>
+<div class="imagebundle articleheader"><a href="https://horizon.kias.re.kr/archives/allarticles/naturalsciences/양자정보-생물학에서-컴퓨터까지/" target="_blank"><img width="800" alt="허준석, 양자정보 생물학에서 컴퓨터까지" src="https://horizon.kias.re.kr/wp-content/uploads/2019/06/18-01-title.jpg" class="headerimage"></a><p class="alt">허준석, 양자정보 생물학에서 컴퓨터까지</p></div>
+<div class="imagebundle articleheader"><a href="https://horizon.kias.re.kr/archives/allarticles/naturalsciences/천성과-양육-운수소관과-인과율/" target="_blank"><img width="800" alt="김철민, 운수소관과 인과율" src="https://horizon.kias.re.kr/wp-content/uploads/2018/11/11-01-title.jpg" class="headerimage"></a><p class="alt">김철민, 운수소관과 인과율</p></div>
+<div class="imagebundle articleheader"><a href="https://horizon.kias.re.kr/archives/allarticles/transdisciplinary/1941년-코펜하겐-하이젠베르크와-보어/" target="_blank"><img width="800" alt="이상욱, 1941년, 하이젠베르크와 보어" src="https://horizon.kias.re.kr/wp-content/uploads/2018/12/12-01-title.jpg" class="headerimage"></a><p class="alt">이상욱, 1941년, 하이젠베르크와 보어</p></div>
+<div class="imagebundle articleheader"><a href="https://horizon.kias.re.kr/archives/allarticles/transdisciplinary/과학의-결정적-순간들-1900년-베를린-플랑크의-양자/" target="_blank"><img width="800" alt="이상욱, 1900년, 플랑크의 양자" src="https://horizon.kias.re.kr/wp-content/uploads/2019/04/16-01-title_rev.jpg" class="headerimage"></a><p class="alt">이상욱, 1900년, 플랑크의 양자</p></div>
+<div class="imagebundle articleheader"><a href="https://horizon.kias.re.kr/archives/allarticles/transdisciplinary/농경의-기원/" target="_blank"><img width="800" alt="진요한, 농경의 기원" src="https://horizon.kias.re.kr/wp-content/uploads/2018/06/06-title-01.jpg" class="headerimage"></a><p class="alt">진요한, 농경의 기원</p></div>
+<div class="imagebundle articleheader"><a href="https://horizon.kias.re.kr/archives/allarticles/transdisciplinary/빅히스토리가-필요한-이유/" target="_blank"><img width="800" alt="D. Christian, 빅히스토리가 필요한 이유" src="https://horizon.kias.re.kr/wp-content/uploads/2018/07/07-01-title.jpg" class="headerimage"></a><p class="alt">D. Christian, 빅히스토리가 필요한 이유</p></div>
+<div class="imagebundle articleheader"><a href="https://horizon.kias.re.kr/archives/allarticles/transdisciplinary/생명의-기원/" target="_blank"><img width="800" alt="이정모, 생명의 기원" src="https://horizon.kias.re.kr/wp-content/uploads/2018/04/04-title-01.jpg" class="headerimage"></a><p class="alt">이정모, 생명의 기원</p></div>
+<div class="imagebundle articleheader"><a href="https://horizon.kias.re.kr/archives/allarticles/transdisciplinary/세상-모든-것의-기원-2/" target="_blank"><img width="800" alt="김서형, 세상 모든 것의 기원 2" src="https://horizon.kias.re.kr/wp-content/uploads/2017/12/01-01-title.jpg" class="headerimage"></a><p class="alt">김서형, 세상 모든 것의 기원 2</p></div>
+<div class="imagebundle articleheader"><a href="https://horizon.kias.re.kr/archives/allarticles/transdisciplinary/세상의-기원-이야기/" target="_blank"><img width="800" alt="이정규, 세상의 기원 이야기" src="https://horizon.kias.re.kr/wp-content/uploads/2018/01/01-title-01.jpg" class="headerimage"></a><p class="alt">이정규, 세상의 기원 이야기</p></div>
+<div class="imagebundle articleheader"><a href="https://horizon.kias.re.kr/archives/allarticles/transdisciplinary/인공지능은-인간을-차별하는가/" target="_blank"><img width="800" alt="홍성욱, 인공지능은 인간을 차별하는가" src="https://horizon.kias.re.kr/wp-content/uploads/2019/08/20-01-title.jpg" class="headerimage"></a><p class="alt">홍성욱, 인공지능은 인간을 차별하는가</p></div>
+<div class="imagebundle articleheader"><a href="https://horizon.kias.re.kr/archives/allarticles/transdisciplinary/인류의-기원/" target="_blank"><img width="800" alt="이상희, 인류의 기원" src="https://horizon.kias.re.kr/wp-content/uploads/2018/05/04-title-01.jpg" class="headerimage"></a><p class="alt">이상희, 인류의 기원</p></div>
+<div class="imagebundle articleheader"><a href="https://horizon.kias.re.kr/archives/allarticles/transdisciplinary/지구의-기원/" target="_blank"><img width="800" alt="백두성, 지구의 기원" src="https://horizon.kias.re.kr/wp-content/uploads/2018/03/01-title.jpg" class="headerimage"></a><p class="alt">백두성, 지구의 기원</p></div>
+<!--- inline images --->
+<!---
+<div class="imagebundle inline single"><a href="https://horizon.kias.re.kr/archives/allarticles/mathematics/고대-그리스-수학을-읽는-세-가지-길-놀라움-보임-그/" target="_blank"><img height="320" alt="이은수, 고대 그리스 수학을 읽는 세 가지 길" src="https://horizon.kias.re.kr/wp-content/uploads/2019/05/17-02.jpg" class="singleheight"></a><p class="alt">이은수</p></div>
+<div class="imagebundle inline single"><a href="https://horizon.kias.re.kr/archives/allarticles/naturalsciences/기후변화와-티핑-포인트/" target="_blank"><img height="320" alt="서경환, 기후변화와 티핑 포인트" src="https://horizon.kias.re.kr/wp-content/uploads/2019/01/13-02.jpg" class="singleheight"></a><p class="alt">서경환</p></div>
+<div class="imagebundle inline single"><a href="https://horizon.kias.re.kr/archives/allarticles/naturalsciences/당신-몸-안의-작은-우주-장내-미생물-생태계와-의과학/" target="_blank"><img height="320" alt="김판준, 당신 몸 안의 작은 우주" src="https://horizon.kias.re.kr/wp-content/uploads/2019/03/15-02.jpg" class="singleheight"></a><p class="alt">김판준</p></div>
+<div class="imagebundle inline single"><a href="https://horizon.kias.re.kr/archives/allarticles/transdisciplinary/1941년-코펜하겐-하이젠베르크와-보어/" target="_blank"><img height="320" alt="이상욱, 1941년, 하이젠베르크와 보어" src="https://horizon.kias.re.kr/wp-content/uploads/2018/12/12-02.jpg" class="singleheight"></a><p class="alt">이상욱</p></div>
+<div class="imagebundle inline single"><a href="https://horizon.kias.re.kr/archives/allarticles/naturalsciences/액체-이론-및-전산모사-연구-경계성의-학문/" target="_blank"><img height="320" alt="정연준, 액체 이론 및 전산모사 연구" src="https://horizon.kias.re.kr/wp-content/uploads/2019/07/19-02_rev2.png" class="singleheight"></a><p class="alt">정연준</p></div>
+<div class="imagebundle inline single"><a href="https://horizon.kias.re.kr/archives/allarticles/naturalsciences/아보가드로-수-물질세계의-불연속성에-대하여/" target="_blank"><img height="320" alt="현창봉, 물질세계의 불연속성에 대하여" src="https://horizon.kias.re.kr/wp-content/uploads/2017/10/07-02.jpg" class="singleheight"></a><p class="alt">현창봉</p></div>
+<div class="imagebundle inline single"><a href="https://horizon.kias.re.kr/archives/allarticles/naturalsciences/양자-물질의-역사-1-최초의-물질-이론/" target="_blank"><img height="320" alt="한정훈, 최초의 물질 이론" src="https://horizon.kias.re.kr/wp-content/uploads/2019/02/14-02.jpg" class="singleheight"></a><p class="alt">한정훈</p></div>
+<div class="imagebundle inline single"><a href="https://horizon.kias.re.kr/archives/allarticles/naturalsciences/양자-물질의-역사-5-그래-핀다/" target="_blank"><img height="320" alt="한정훈, 그래, 핀다!" src="https://horizon.kias.re.kr/wp-content/uploads/2019/09/21-02.jpg" class="singleheight"></a><p class="alt">한정훈</p></div>
+<div class="imagebundle inline single"><a href="https://horizon.kias.re.kr/archives/allarticles/naturalsciences/천성과-양육-운수소관과-인과율/" target="_blank"><img height="320" alt="김철민, 운수소관과 인과율" src="https://horizon.kias.re.kr/wp-content/uploads/2018/11/11-02.jpg" class="singleheight"></a><p class="alt">김철민</p></div>
+<div class="imagebundle inline single"><a href="https://horizon.kias.re.kr/archives/allarticles/transdisciplinary/과학의-결정적-순간들-1900년-베를린-플랑크의-양자/" target="_blank"><img height="320" alt="이상욱, 1900년, 플랑크의 양자" src="https://horizon.kias.re.kr/wp-content/uploads/2019/04/16-02.jpg" class="singleheight"></a><p class="alt">이상욱</p></div>
+<div class="imagebundle inline single"><a href="https://horizon.kias.re.kr/archives/allarticles/transdisciplinary/빅히스토리가-필요한-이유/" target="_blank"><img height="320" alt="D. Christian, 빅히스토리가 필요한 이유" src="https://horizon.kias.re.kr/wp-content/uploads/2018/07/07-02.jpg" class="singleheight"></a><p class="alt">D. Christian</p></div>
+<div class="imagebundle inline single"><a href="https://horizon.kias.re.kr/archives/allarticles/transdisciplinary/생명의-기원/" target="_blank"><img height="320" alt="이정모, 생명의 기원" src="https://horizon.kias.re.kr/wp-content/uploads/2018/04/04-2.jpg" class="singleheight"></a><p class="alt">이정모</p></div>
+<div class="imagebundle inline single"><a href="https://horizon.kias.re.kr/archives/allarticles/naturalsciences/양자정보-생물학에서-컴퓨터까지/" target="_blank"><img height="320" alt="허준석, 양자정보 생물학에서 컴퓨터까지" src="https://horizon.kias.re.kr/wp-content/uploads/2019/06/18-02.jpg" class="singleheight"></a><p class="alt">허준석</p></div>
+<div class="imagebundle inline single"><a href="https://horizon.kias.re.kr/archives/allarticles/transdisciplinary/세상-모든-것의-기원-2/" target="_blank"><img height="320" alt="김서형, 세상 모든 것의 기원 2" src="https://horizon.kias.re.kr/wp-content/uploads/2017/12/01-02.jpg" class="singleheight"></a><p class="alt">김서형</p></div>
+<div class="imagebundle inline single"><a href="https://horizon.kias.re.kr/archives/allarticles/transdisciplinary/세상의-기원-이야기/" target="_blank"><img height="320" alt="이정규, 세상의 기원 이야기" src="https://horizon.kias.re.kr/wp-content/uploads/2018/01/02.jpg" class="singleheight"></a><p class="alt">이정규</p></div>
+<div class="imagebundle inline single"><a href="https://horizon.kias.re.kr/archives/allarticles/transdisciplinary/인공지능은-인간을-차별하는가/" target="_blank"><img height="320" alt="홍성욱, 인공지능은 인간을 차별하는가" src="https://horizon.kias.re.kr/wp-content/uploads/2019/08/20-02_rev.jpg" class="singleheight"></a><p class="alt">홍성욱</p></div>
+<div class="imagebundle inline single"><a href="https://horizon.kias.re.kr/archives/allarticles/transdisciplinary/인류의-기원/" target="_blank"><img height="320" alt="이상희, 인류의 기원" src="https://horizon.kias.re.kr/wp-content/uploads/2018/05/04-2.jpg" class="singleheight"></a><p class="alt">이상희</p></div>
+<div class="imagebundle inline single"><a href="https://horizon.kias.re.kr/archives/allarticles/transdisciplinary/지구의-기원/" target="_blank"><img height="320" alt="백두성, 지구의 기원" src="https://horizon.kias.re.kr/wp-content/uploads/2018/03/02.jpg" class="singleheight"></a><p class="alt">백두성</p></div>
+--->
+<!--- double height images --->
+<!---
+<div class="doublecontainer">
+<div class="imagebundle inline double"><a href="https://horizon.kias.re.kr/archives/allarticles/naturalsciences/믿기-힘든-양자-incredible-quantum-5-양자-삼위일체-1부/" target="_blank"><img height="644" alt="박권, 양자 삼위일체 1부" src="https://horizon.kias.re.kr/wp-content/uploads/2018/10/10-02.jpg" class="doubleheight"></a><p class="alt">박권</p></div>
+<div class="imagebundle inline double"><a href="https://horizon.kias.re.kr/archives/allarticles/naturalsciences/암흑물질과-암흑에너지/" target="_blank"><img height="644" alt="전응진, 암흑물질과 암흑에너지" src="https://horizon.kias.re.kr/wp-content/uploads/2018/09/09-02.jpg" class="doubleheight"></a><p class="alt">전응진</p></div>
+<div class="imagebundle inline double"><a href="https://horizon.kias.re.kr/archives/allarticles/transdisciplinary/농경의-기원/" target="_blank"><img height="644" alt="진요한, 농경의 기원" src="https://horizon.kias.re.kr/wp-content/uploads/2018/06/06-2.jpg" class="doubleheight"></a><p class="alt">진요한</p></div>
+</div>
+--->
+</div>
+</body>
+</html>

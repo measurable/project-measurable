@@ -1,0 +1,17 @@
+  <a href='{{"/" | urlize }}'>{{ .Site.Title }}</a>
+  {{ if not .IsHome }}
+    &gt;
+    {{ if .IsNode }}
+      {{ if .Parent.IsHome }}
+        <a href='{{"." | urlize }}'>{{ .Section | lower}}</a>
+      {{ else}}
+        <a href='{{".." | urlize }}'>{{ .Section | lower }}</a>
+        &gt;
+        <a href='{{"." | urlize }}'>{{ .Title | lower}}</a>
+      {{ end }}
+    {{ else if .IsPage}}
+      <a href='{{".." | urlize }}'>{{ .Section }}</a>
+      &gt;
+      <a href="{{ .Permalink }}">{{ .File.ContentBaseName }}</a>
+    {{ end }}
+  {{ end }}

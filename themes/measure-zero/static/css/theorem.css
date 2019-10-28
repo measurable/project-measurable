@@ -1,0 +1,69 @@
+.theorem {
+    display: block;
+    margin: 1.1em 0;
+    /* font-style: italic; */
+    font-family: 'Noto Sans KR Thin', sans-serif;
+}
+
+.theorem:before {
+    content: "정리";
+    font-family: 'Noto Sans KR', sans-serif;
+    font-style: normal;
+}
+
+.lemma {
+    display: block;
+    margin: 1.1em 0;
+    font-family: 'Noto Sans KR Thin', sans-serif;
+    font-style: normal;
+}
+.lemma:before {
+    content: "보조정리";
+    font-family: 'Noto Sans KR', sans-serif;
+    font-style: normal;
+}
+
+.proof {
+    display: block;
+    margin: 1em 0;
+    font-style: normal;
+}
+.proof:before {
+    content: "증명";
+    font-family: 'Noto Sans KR', sans-serif;
+    font-style: normal;
+}
+.proof:after {
+    content: "\25FC";
+    float:right;
+}
+
+.definition {
+    display: block;
+    margin: 1.1em 0;
+    font-family: 'Noto Sans KR Thin', sans-serif;
+}
+
+.definition:before {
+    content: "정의";
+    font-family: 'Noto Sans KR', sans-serif;
+    font-style: normal;
+}
+
+.ex {
+    display: block;
+    margin: 1.1em 0;
+}
+
+.ex:before {
+    content: "(예제)";
+    font-family: 'Noto Sans KR', sans-serif;
+    font-style: normal;
+}
+
+.theorem>.pretag,
+.lemma>.pretag,
+.definition>.pretag,
+.ex>.pretag {
+    font-size: 1em;
+}

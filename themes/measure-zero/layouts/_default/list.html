@@ -1,0 +1,21 @@
+{{define "main" }}
+  <div>
+    {{ .Content }}
+  </div>
+  <div>
+    {{ range .Pages }}
+      {{ if .IsPage }}
+        <!--- if sub pages are leaf pages --->
+          <span class="pretag">
+            ({{ .Section | singularize }})
+          </span>
+           {{ .Date.Format "2006-01-02" }} |
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+          <br>
+      {{ else }}
+        <!--- if .IsNode --->
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      {{ end }}
+    {{ end }}
+  </div>
+{{ end }}

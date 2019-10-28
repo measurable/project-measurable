@@ -1,0 +1,12 @@
+<h3 class="pretag">글목록</h3>
+{{ range .Pages }}
+    <li><span class="pretag">{{ .Date.Format "2006.01.02" }}</span>
+    <a href="{{ .Permalink }}">{{ .Title }}
+    <div class="motivation">
+      {{ if .IsNode }}
+        (글모음)
+      {{ end }}
+      {{ .Params.motivation }}
+    </div>
+    </a></li>
+{{ end }}

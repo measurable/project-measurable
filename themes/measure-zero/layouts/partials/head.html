@@ -1,0 +1,14 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="/css/theorem.css" />
+  {{ partial "mathjax3.html" . }}
+  <title>
+    {{ if .IsHome }}
+      {{ .Site.Title }}
+    {{ else}}
+      {{ .Title | lower }} &vert; {{ .Site.Title }}
+    {{ end }}
+  </title>
+</head>

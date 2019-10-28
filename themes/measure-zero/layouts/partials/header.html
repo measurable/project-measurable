@@ -1,0 +1,44 @@
+<header>
+  {{ if .IsHome }}
+    <p class="pretag" align="center"><a href="/">home</a></p>
+    <h1>{{ .Title }}</h1>
+  {{ else if .IsNode }}
+    <p class="pretag" align="center"><a href="../">{{ .Section | singularize }}</a></p>
+    <h1>{{ .Title | lower }}</h1>
+  {{ else }}
+    <p class="pretag" align="center">
+      {{ with .Params.categories }}
+        {{ range . }}
+          {{ $href := print (absURL "categories/") (urlize .) }}
+          <a href="{{ $href }}">[{{ . }}]</a>
+        {{ end }}
+      {{ end }}
+      {{ if ne .CurrentSection .FirstSection }}
+        <a href="../">{{ .CurrentSection.Title }}</a>
+      {{ end }}
+      <!---
+      {{ .Params.categories }}
+      --->
+    </p>
+    <h1> {{ .Title }} </h1>
+  {{ end }}
+  <div class="motivation">
+    {{ if gt (len (string .Params.motivation)) 0 }}
+      <!--- <span class="pretag">모티브</span>
+        --->&para;
+      {{ .Params.motivation }}
+    {{ end }}
+  <div class="ref">
+    {{ if gt (len (string .Params.inspired)) 0 }}
+      <span class="pretag">ref</span>:
+      {{ if hasPrefix .Params.inspired "http" }}
+        <a href="{{ .Params.inspired }}" target="_blank" class="nobottomline"><span class="refsrc">{{ .Params.inspired }}</span></a>
+      {{ else }}
+        <span class="refsrc">{{ .Params.inspired }}</span>
+      {{ end }}
+    {{ end }}
+  </div>
+  </div>
+
+<div><hr></div>
+</header>

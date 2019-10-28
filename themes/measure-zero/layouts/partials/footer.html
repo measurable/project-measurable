@@ -1,0 +1,18 @@
+<footer>
+  <div id="credit">
+    <p>{{ .Kind }} created: {{ .Date.Format "2006.01.02" }}
+      {{ if .IsPage }}
+        in {{ .Section }}
+      {{ end }}
+      <span id="pretag">SECTIONS & TAXONOMIES</span>:
+      {{ partial "strip-rootsections.html" . }}
+      {{ partial "strip-taxonomies.html" . }}
+      measurable, 2019.
+      <a href="https://www.mathjax.org" target="_blank">
+        <img title="Powered by MathJax"
+             src="https://www.mathjax.org/badge/badge.gif"
+             border="0" alt="Powered by MathJax" width="56"/>
+      </a>
+    </p>
+  </div>
+</footer>

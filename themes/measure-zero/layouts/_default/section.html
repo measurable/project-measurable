@@ -1,0 +1,15 @@
+{{define "main" }}
+  <div>
+    {{ if eq .CurrentSection .FirstSection }}
+      <div>
+        {{ .Content }}
+      </div>
+      {{ partial "articlelist.html" . }}
+    {{ else }}
+      {{ partial "articlelist.html" . }}
+      <div>
+        {{ .Content }}
+      </div>
+    {{ end }}
+  </div>
+{{ end }}

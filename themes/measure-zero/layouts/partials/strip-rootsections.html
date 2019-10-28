@@ -1,0 +1,3 @@
+{{ range .Site.Sections }}
+  <a href="{{ .Permalink }}">{{ trim .RelPermalink "/"}}</a>
+{{ end }}

@@ -1,0 +1,62 @@
+baseURL = "https://measurable.github.io"
+languageCode = "en-us"
+title = "measurable"
+theme = "measure-zero"
+
+pygmentsCodefences = true
+pygmentsStyle = "monokai"
+
+[blackfriday]
+  fractions = false
+  hrefTargetBlank = true
+  extensions = ["noEmptyLineBeforeBlock"]
+  extensionsmask = ["backslashLineBreak"]
+
+[taxonomies]
+    category = "categories"
+    tag = "tags"
+    keyword = "keywords"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "posts"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/posts/"
+    weight = -130
+
+  [[menu.main]]
+    identifier = "moments"
+    name = "moments"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/moments/"
+    weight = -120
+
+  [[menu.main]]
+    identifier = "surveys"
+    name = "surveys"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/surveys/"
+    weight = -110
+
+  [[menu.main]]
+    identifier = "fragments"
+    name = "fragments"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/fragments/"
+    weight = -105
+
+  [[menu.main]]
+    identifier = "archives"
+    name = "archives"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/archives/"
+    weight = -100
+
+  [[menu.main]]
+    identifier = "docs"
+    name = "site.docs"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/docs/"
+    weight = -90

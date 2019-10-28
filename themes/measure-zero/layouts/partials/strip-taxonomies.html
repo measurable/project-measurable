@@ -1,0 +1,9 @@
+{{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
+  <span class="taxonomy">
+    <a href='{{ "/" | relURL}}{{ $taxonomyname | urlize }}'>{{ $taxonomyname }}</a>
+  </span>
+{{ end }}
+<!--- https://gohugo.io/variables/taxonomy/ --->
+<!--- syntax:
+  https://gohugo.io/templates/introduction/#example-4-declaring-variable-names-for-a-map-element-s-key-and-value
+--->

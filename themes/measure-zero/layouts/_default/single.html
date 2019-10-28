@@ -1,0 +1,23 @@
+{{ define "main" }}
+<!--- moved to partials/header.html
+  <div class="ref">
+    {{ if gt (len (string .Params.inspired)) 0 }}
+      <span class="pretag">ref</span>:
+      {{ if hasPrefix .Params.inspired "http" }}
+        <a href="{{ .Params.inspired }}" target="_blank" class="nobottomline"><span class="refsrc">{{ .Params.inspired }}</span></a>
+      {{ else }}
+        <span class="refsrc">{{ .Params.inspired }}</span>
+      {{ end }}
+    {{ end }}
+  </div>
+  <div class="motivation">
+    {{ if gt (len (string .Params.motivation)) 0 }}
+      <span class="pretag">모티브</span>
+      {{ .Params.motivation }}
+    {{ end }}
+  </div>
+ --->
+   <div>
+    {{ .Content }}
+  </div>
+{{ end }}
